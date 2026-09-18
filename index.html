@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Haeundae Local SEO & Responsive Website Case Study</title>
+
+  <meta name="description"
+        content="A practical case study on responsive web design, local SEO, internal linking and search-focused landing pages for a Haeundae business website in Busan.">
+
+  <meta name="robots"
+        content="index, follow">
+
+  <meta property="og:title"
+        content="Haeundae Local SEO & Responsive Website Case Study">
+
+  <meta property="og:description"
+        content="Responsive design, local search structure, internal linking and technical SEO lessons from a Haeundae business website project.">
+
+  <meta property="og:type"
+        content="website">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #08111f;
+      color: #eaf1f8;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+      line-height: 1.75;
+    }
+
+    a {
+      color: #8fcaff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 110px 0 90px;
+
+      background:
+        radial-gradient(
+          circle at 80% 20%,
+          rgba(46, 116, 181, 0.25),
+          transparent 38%
+        ),
+        linear-gradient(
+          135deg,
+          #07101d,
+          #0d1b2d
+        );
+
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    .eyebrow {
+      margin-bottom: 18px;
+      color: #8fcaff;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+
+      font-size: clamp(42px, 7vw, 82px);
+      line-height: 1.03;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 28px 0 0;
+
+      color: #b8c5d5;
+      font-size: clamp(17px, 2vw, 21px);
+    }
+
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+
+      margin-top: 36px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 20px;
+
+      border: 1px solid rgba(143,202,255,.45);
+      border-radius: 10px;
+
+      background: rgba(143,202,255,.08);
+
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    main {
+      padding: 75px 0 110px;
+    }
+
+    section {
+      max-width: 880px;
+      margin-bottom: 70px;
+    }
+
+    h2 {
+      margin: 0 0 22px;
+
+      font-size: clamp(27px, 4vw, 38px);
+      line-height: 1.2;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: #c8d2df;
+      font-size: 17px;
+    }
+
+    ul {
+      margin: 22px 0;
+      padding-left: 23px;
+
+      color: #c8d2df;
+      font-size: 17px;
+    }
+
+    li {
+      margin: 9px 0;
+    }
+
+    .card {
+      margin: 28px 0;
+      padding: 28px;
+
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 16px;
+
+      background: rgba(255,255,255,.035);
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 7px;
+      color: #ffffff;
+    }
+
+    .link-card {
+      display: block;
+      margin-top: 25px;
+      padding: 22px 24px;
+
+      border: 1px solid rgba(143,202,255,.3);
+      border-radius: 14px;
+
+      background: rgba(55,126,184,.09);
+    }
+
+    .link-card span {
+      display: block;
+      margin-top: 5px;
+      color: #99aabc;
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 35px 0;
+
+      border-top: 1px solid rgba(255,255,255,.08);
+
+      color: #8090a3;
+      font-size: 14px;
+    }
+
+    @media (max-width: 680px) {
+      .wrap {
+        width: min(100% - 28px, 1120px);
+      }
+
+      .hero {
+        padding: 75px 0 62px;
+      }
+
+      main {
+        padding: 55px 0 80px;
+      }
+
+      section {
+        margin-bottom: 55px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="wrap">
+
+      <div class="eyebrow">
+        Local Business Website · Busan
+      </div>
+
+      <h1>
+        Haeundae Local SEO &
+        Responsive Website Case Study
+      </h1>
+
+      <p>
+        A practical look at how responsive design, search intent,
+        dedicated landing pages and contextual internal links can be
+        combined when building a local business website for Haeundae,
+        Busan.
+      </p>
+
+      <div class="hero-links">
+
+        <a class="button"
+           href="https://www.intro-room.com/system">
+          View System Guide
+        </a>
+
+        <a class="button"
+           href="https://www.intro-room.com/">
+          Visit Live Website
+        </a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <main class="wrap">
+
+    <section>
+      <h2>1. Search Intent Before Keyword Repetition</h2>
+
+      <p>
+        A local website does not need every page to compete for exactly
+        the same search phrase.
+      </p>
+
+      <p>
+        A clearer approach is to give important pages individual roles.
+        The main page can explain the overall business while supporting
+        landing pages answer more specific visitor questions such as
+        service systems, pricing, room quality and reservation
+        information.
+      </p>
+
+      <div class="card">
+        <strong>Core principle</strong>
+
+        One page should solve one primary search intent whenever
+        practical, rather than repeating the same keyword across every
+        section of the website.
+      </div>
+    </section>
+
+
+    <section>
+      <h2>2. Dedicated Landing Pages</h2>
+
+      <p>
+        Important topics were separated into focused landing pages
+        rather than placing every detail on one long homepage.
+      </p>
+
+      <p>
+        This gives visitors a clearer path to the information they want
+        and provides search engines with a more understandable site
+        structure.
+      </p>
+
+      <a class="link-card"
+         href="https://www.intro-room.com/system">
+
+        <strong>
+          INTRO Haeundae Room Bar System Guide
+        </strong>
+
+        <span>
+          Example of a dedicated page created around service-system
+          information.
+        </span>
+
+      </a>
+    </section>
+
+
+    <section>
+      <h2>3. One Responsive Content Structure</h2>
+
+      <p>
+        Maintaining completely separate desktop and mobile pages can
+        create unnecessary duplication and make updates harder to
+        manage.
+      </p>
+
+      <p>
+        The project instead moved toward one responsive HTML structure
+        using:
+      </p>
+
+      <ul>
+        <li>CSS media queries</li>
+        <li>Flexbox and Grid</li>
+        <li>percentage-based layouts</li>
+        <li>max-width containers</li>
+        <li>responsive typography with clamp()</li>
+        <li>device-appropriate image switching where useful</li>
+      </ul>
+
+      <p>
+        This keeps the underlying information consistent while allowing
+        desktop and mobile layouts to adapt naturally.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>4. Clear Heading Hierarchy</h2>
+
+      <p>
+        Visual design and document structure should work together.
+        Important pages benefit from a simple hierarchy consisting of
+        one primary H1 followed by meaningful H2 and H3 sections where
+        necessary.
+      </p>
+
+      <p>
+        Decorative text does not always need to become a semantic
+        heading. Keeping these roles separate makes the content easier
+        for both visitors and search engines to interpret.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>5. Contextual Internal Linking</h2>
+
+      <p>
+        Internal links are most useful when they reflect the context of
+        the surrounding content.
+      </p>
+
+      <ul>
+        <li>system-related content points to the system guide</li>
+        <li>pricing information points to the pricing page</li>
+        <li>room-quality content points to the quality page</li>
+        <li>general brand references can point to the main website</li>
+      </ul>
+
+      <p>
+        The anchor should explain what a visitor can expect after
+        clicking rather than repeating the same phrase everywhere.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>6. Image Accessibility and Performance</h2>
+
+      <p>
+        A visually focused local business website may contain many
+        interior and room images.
+      </p>
+
+      <p>
+        ALT text should describe what is actually represented in each
+        image instead of being treated as a place to repeat keywords.
+        At the same time, large hero images should be optimized because
+        they can influence page-loading performance.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>7. Consistent Business Information</h2>
+
+      <p>
+        Pricing, operating information and visitor guidance can appear
+        in several areas of a website.
+      </p>
+
+      <p>
+        When those sections are updated independently, inconsistencies
+        can easily appear. Keeping related information synchronized
+        improves usability and reduces confusion for visitors.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>8. Measure Before Making More Changes</h2>
+
+      <p>
+        Publishing a website is only the beginning of the SEO process.
+        Search performance should be evaluated using actual data rather
+        than constant daily changes.
+      </p>
+
+      <p>
+        Useful measurements can include indexing status, impressions,
+        clicks, queries and average search position. After meaningful
+        structural changes, giving search engines time to crawl and
+        reassess the site can provide more useful information than
+        continuously modifying the page.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>9. High-End Room Content Needs Context</h2>
+
+      <p>
+        Search topics such as private lounges and high-end rooms are
+        most useful when they appear within genuinely helpful visitor
+        information.
+      </p>
+
+      <p>
+        Instead of repeating commercial phrases, content can explain
+        practical considerations such as room atmosphere, privacy,
+        reservation planning, pricing and the type of experience a
+        visitor can expect.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>10. Build for People First</h2>
+
+      <p>
+        Technical SEO helps search engines discover and understand a
+        website, but the final experience still needs to work for real
+        visitors.
+      </p>
+
+      <ul>
+        <li>Is the page purpose immediately understandable?</li>
+        <li>Can visitors find important information quickly?</li>
+        <li>Does the layout work comfortably on mobile?</li>
+        <li>Are pricing and system information clearly separated?</li>
+        <li>Can visitors reach related pages without unnecessary steps?</li>
+      </ul>
+
+      <p>
+        When the information architecture helps people first, search
+        optimization becomes easier to maintain as well.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Live Implementation</h2>
+
+      <p>
+        The concepts described in this case study are being applied and
+        refined on the live INTRO website as search and usability data
+        becomes available.
+      </p>
+
+      <a class="link-card"
+         href="https://www.intro-room.com/">
+
+        <strong>
+          Haeundae Room Bar INTRO Official Website
+        </strong>
+
+        <span>
+          View the current live implementation.
+        </span>
+
+      </a>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="wrap">
+      Haeundae Local SEO & Responsive Website Case Study
+    </div>
+  </footer>
+
+</body>
+</html>
